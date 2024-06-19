@@ -1,0 +1,39 @@
+name: extract-service
+
+jobManager:
+  threadPoolSize: 2
+  jobs:
+    - name: nasa-job
+      sleep: 2000
+      failedAttemptMax: 50
+      apiProvider:
+        name: NASA
+        apiKey: none
+        baseUrl: https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py?
+        user: anonymous
+      externalServer:
+        name: transform-server
+        host: http://transform-service:9000 # replace from localhost to service name from docker-compose.yml
+        paths:
+          - path: /api/v1/nasa/pressure
+            method: POST
+          - path: /api/v1/nasa/temperature
+            method: POST
+
+    - name: openweather-job
+      sleep: 2000
+      failedAttemptMax: 50
+      apiProvider:
+        name: OPEN_WEATHER_MAP
+        apiKey: b6907d289e10d714a6e88b30761fae22
+        baseUrl: https://samples.openweathermap.org/data/2.5/weather?
+        user: anonymous
+      externalServer:
+        name: transform-server
+        host: http://transform-service:9000 # replace from localhost to service name from docker-compose.yml
+        paths:
+          - path: /api/v1/openweather/pressure
+            method: POST
+          - path: /api/v1/openweather/temperature
+            method: POST
+

@@ -1,0 +1,40 @@
+name: transform-service
+
+httpServer:
+  port: 9000
+  socket:
+    timeout: 50 # in seconds
+    tcpDelay: true
+  paths:
+    - path: /api/v1/nasa/pressure
+      method: POST
+      cacheKey: nasa-cache-pressure
+    - path: /api/v1/nasa/temperature
+      method: POST
+      cacheKey: nasa-cache-temperature
+
+caches:
+  - key: nasa-cache-temperature
+    size: 10 # size in megabyte
+    duration: 5
+  - key: nasa-cache-pressure
+    size: 10 # size in megabyte
+    duration: 5
+
+jobManager:
+  threadPoolSize: 2
+  jobs:
+    - name: nasa-job
+      sleep: 2000
+      failedAttemptMax: 5
+      cacheKeys:
+        - nasa-cache-temperature
+        - nasa-cache-pressure
+
+redis:
+  host: redis-service # replace from localhost to service name from docker-compose.yml
+  port: 6379
+  password:
+  useSSL: false
+  databaseNumber: 1
+  defaultTimeout: 10000

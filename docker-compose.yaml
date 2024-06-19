@@ -1,0 +1,58 @@
+version: '2'
+
+networks:
+  edata_net:
+
+volumes:
+  cache:
+    driver: local
+
+services:
+  redis-service:
+    image: redis:7.0.7
+    container_name: redis-service
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --loglevel warning
+    volumes:
+      - cache:/data
+    networks:
+      edata_net:
+
+  transform-service:
+    build:
+      context: transform-service
+      dockerfile: Dockerfile
+    image: kolicajgentjan/edata-transformservice:latest
+    container_name: transform-service
+    ports:
+      - "9000:9000"
+    depends_on:
+      - redis-service
+    networks:
+      edata_net:
+
+  load-service:
+    build:
+      context: load-service
+      dockerfile: Dockerfile
+    image: kolicajgentjan/edata-loadservice:latest
+    container_name: load-service
+    ports:
+      - '8080:8080'
+    depends_on:
+      - redis-service
+    networks:
+      edata_net:
+
+  extract-service:
+    build:
+      context: extract-service
+      dockerfile: Dockerfile
+    image: kolicajgentjan/edata-extractservice:latest
+    container_name: extract-service
+    depends_on:
+      - transform-service
+    networks:
+      edata_net:

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: load-service
+  redis:
+    host: redis-service # replace from localhost to service name from docker-compose.yml
+    username:
+    password:
+    port: 6379
+    database: 1
+  banner:
+    image:
+      location: classpath:banner.txt
+  mvc:
+    favicon:
+      enabled: false
+  thymeleaf:
+    cache: false
