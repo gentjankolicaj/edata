@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.statistic.core;
+package io.edata.load.statistic.core;
 
-import io.gentjankolicaj.app.edata.load.statistic.core.exception.AttributeException;
-import io.gentjankolicaj.app.edata.load.statistic.core.exception.ItemException;
+import io.edata.load.statistic.core.exception.AttributeException;
+import io.edata.load.statistic.core.exception.ItemException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

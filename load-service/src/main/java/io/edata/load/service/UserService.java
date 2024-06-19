@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
 import io.edata.commons.domain.User;
-import io.gentjankolicaj.app.edata.load.command.UserCmd;
-import io.gentjankolicaj.app.edata.load.dto.UserDTO;
+import io.edata.load.command.UserCmd;
+import io.edata.load.dto.UserDTO;
 import java.util.List;
 
 public interface UserService {

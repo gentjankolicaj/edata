@@ -1,13 +1,13 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
 import io.edata.commons.domain.Country;
-import io.gentjankolicaj.app.edata.load.command.CountryCmd;
-import io.gentjankolicaj.app.edata.load.dto.CountryDTO;
-import io.gentjankolicaj.app.edata.load.exception.resource.CountryNotFoundException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullReferenceException;
-import io.gentjankolicaj.app.edata.load.mapper.CountryMapper;
-import io.gentjankolicaj.app.edata.load.repository.CountryRepository;
+import io.edata.load.command.CountryCmd;
+import io.edata.load.dto.CountryDTO;
+import io.edata.load.exception.resource.CountryNotFoundException;
+import io.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullReferenceException;
+import io.edata.load.mapper.CountryMapper;
+import io.edata.load.repository.CountryRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

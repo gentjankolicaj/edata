@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.security;
+package io.edata.load.security;
 
 import java.util.Collection;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.command.nasa.power;
+package io.edata.load.command.nasa.power;
 
 
 import jakarta.validation.constraints.NotNull;

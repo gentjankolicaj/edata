@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.api.v1.controller;
+package io.edata.load.api.v1.controller;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

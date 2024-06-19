@@ -1,6 +1,6 @@
-package io.gentjankolicaj.app.edata.load.api.v1.advice;
+package io.edata.load.api.v1.advice;
 
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullIdException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

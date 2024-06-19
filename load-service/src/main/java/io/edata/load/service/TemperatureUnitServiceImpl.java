@@ -1,13 +1,13 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
 import io.edata.commons.domain.TemperatureUnit;
-import io.gentjankolicaj.app.edata.load.command.TemperatureUnitCmd;
-import io.gentjankolicaj.app.edata.load.dto.TemperatureUnitDTO;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullReferenceException;
-import io.gentjankolicaj.app.edata.load.exception.resource.TemperatureUnitNotFoundException;
-import io.gentjankolicaj.app.edata.load.mapper.TemperatureUnitMapper;
-import io.gentjankolicaj.app.edata.load.repository.TemperatureUnitRepository;
+import io.edata.load.command.TemperatureUnitCmd;
+import io.edata.load.dto.TemperatureUnitDTO;
+import io.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullReferenceException;
+import io.edata.load.exception.resource.TemperatureUnitNotFoundException;
+import io.edata.load.mapper.TemperatureUnitMapper;
+import io.edata.load.repository.TemperatureUnitRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

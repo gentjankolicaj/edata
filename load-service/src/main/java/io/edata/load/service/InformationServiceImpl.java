@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
-import io.gentjankolicaj.app.edata.load.command.InformationCmd;
-import io.gentjankolicaj.app.edata.load.repository.InformationRepository;
+import io.edata.load.command.InformationCmd;
+import io.edata.load.repository.InformationRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

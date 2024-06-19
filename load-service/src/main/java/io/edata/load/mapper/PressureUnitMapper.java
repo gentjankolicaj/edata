@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.PressureUnit;
-import io.gentjankolicaj.app.edata.load.command.PressureUnitCmd;
-import io.gentjankolicaj.app.edata.load.dto.PressureUnitDTO;
+import io.edata.load.command.PressureUnitCmd;
+import io.edata.load.dto.PressureUnitDTO;
 import java.util.List;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

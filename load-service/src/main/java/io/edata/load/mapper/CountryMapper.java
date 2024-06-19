@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.Country;
-import io.gentjankolicaj.app.edata.load.command.CountryCmd;
-import io.gentjankolicaj.app.edata.load.dto.CountryDTO;
+import io.edata.load.command.CountryCmd;
+import io.edata.load.dto.CountryDTO;
 import java.util.List;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

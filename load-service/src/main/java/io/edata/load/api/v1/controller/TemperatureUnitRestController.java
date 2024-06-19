@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.api.v1.controller;
+package io.edata.load.api.v1.controller;
 
-import io.gentjankolicaj.app.edata.load.dto.TemperatureUnitDTO;
-import io.gentjankolicaj.app.edata.load.service.TemperatureUnitService;
+import io.edata.load.dto.TemperatureUnitDTO;
+import io.edata.load.service.TemperatureUnitService;
 import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

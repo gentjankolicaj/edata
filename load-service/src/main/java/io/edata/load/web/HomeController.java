@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.web;
+package io.edata.load.web;
 
 
-import io.gentjankolicaj.app.edata.load.service.InformationService;
+import io.edata.load.service.InformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

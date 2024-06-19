@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.security;
+package io.edata.load.security;
 
 import io.edata.commons.domain.User;
-import io.gentjankolicaj.app.edata.load.service.UserService;
+import io.edata.load.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -31,7 +31,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
     CustomUserDetails customUserDetails = new CustomUserDetails(user);
 
     if ((user == null) || (!user.getPassword().equals(token.getCredentials().toString())
-        || (!user.getUsername().equals(token.getName().toString())))) {
+        || (!user.getUsername().equals(token.getName())))) {
       throw new BadCredentialsException("Credentials are invalid");
     } else {
       return new CustomAuthenticationToken(customUserDetails, customUserDetails.getPassword(),

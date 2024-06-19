@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.dto;
+package io.edata.load.dto;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

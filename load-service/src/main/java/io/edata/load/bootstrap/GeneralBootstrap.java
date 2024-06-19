@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.bootstrap;
+package io.edata.load.bootstrap;
 
 
 import org.springframework.boot.CommandLineRunner;

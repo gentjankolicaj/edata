@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.api.v1.controller.nasa.power;
+package io.edata.load.api.v1.controller.nasa.power;
 
-import io.gentjankolicaj.app.edata.load.dto.nasa.power.PowerPressureDTO;
-import io.gentjankolicaj.app.edata.load.service.nasa.PowerPressureService;
+import io.edata.load.dto.nasa.power.PowerPressureDTO;
+import io.edata.load.service.nasa.PowerPressureService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

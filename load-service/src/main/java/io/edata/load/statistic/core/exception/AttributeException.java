@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.statistic.core.exception;
+package io.edata.load.statistic.core.exception;
 
 public class AttributeException extends RuntimeException {
 

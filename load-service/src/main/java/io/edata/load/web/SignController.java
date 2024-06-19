@@ -1,13 +1,13 @@
-package io.gentjankolicaj.app.edata.load.web;
+package io.edata.load.web;
 
 
 import static java.util.Objects.isNull;
 
-import io.gentjankolicaj.app.edata.load.command.CountryCmd;
-import io.gentjankolicaj.app.edata.load.command.UserCmd;
-import io.gentjankolicaj.app.edata.load.service.CountryService;
-import io.gentjankolicaj.app.edata.load.service.InformationService;
-import io.gentjankolicaj.app.edata.load.service.UserService;
+import io.edata.load.command.CountryCmd;
+import io.edata.load.command.UserCmd;
+import io.edata.load.service.CountryService;
+import io.edata.load.service.InformationService;
+import io.edata.load.service.UserService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

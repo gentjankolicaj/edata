@@ -1,9 +1,9 @@
-package io.gentjankolicaj.app.edata.load.mapper.nasa;
+package io.edata.load.mapper.nasa;
 
 import io.edata.commons.domain.nasa.power.Identifier;
-import io.gentjankolicaj.app.edata.load.command.nasa.power.IdentifierCmd;
-import io.gentjankolicaj.app.edata.load.dto.nasa.power.IdentifierDTO;
-import io.gentjankolicaj.app.edata.load.mapper.core.NasaCustomMapper;
+import io.edata.load.command.nasa.power.IdentifierCmd;
+import io.edata.load.dto.nasa.power.IdentifierDTO;
+import io.edata.load.mapper.core.NasaCustomMapper;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Component;

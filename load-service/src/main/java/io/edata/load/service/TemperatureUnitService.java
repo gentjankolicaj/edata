@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
-import io.gentjankolicaj.app.edata.load.command.TemperatureUnitCmd;
-import io.gentjankolicaj.app.edata.load.dto.TemperatureUnitDTO;
+import io.edata.load.command.TemperatureUnitCmd;
+import io.edata.load.dto.TemperatureUnitDTO;
 import java.util.List;
 
 public interface TemperatureUnitService {

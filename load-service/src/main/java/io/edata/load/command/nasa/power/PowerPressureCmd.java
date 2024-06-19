@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.command.nasa.power;
+package io.edata.load.command.nasa.power;
 
-import io.gentjankolicaj.app.edata.load.command.PressureUnitCmd;
-import io.gentjankolicaj.app.edata.load.statistic.core.Attribute;
-import io.gentjankolicaj.app.edata.load.statistic.core.Item;
+import io.edata.load.command.PressureUnitCmd;
+import io.edata.load.statistic.core.Attribute;
+import io.edata.load.statistic.core.Item;
 import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
 import lombok.AllArgsConstructor;

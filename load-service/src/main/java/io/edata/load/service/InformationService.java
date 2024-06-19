@@ -1,6 +1,6 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
-import io.gentjankolicaj.app.edata.load.command.InformationCmd;
+import io.edata.load.command.InformationCmd;
 import java.util.List;
 
 public interface InformationService {

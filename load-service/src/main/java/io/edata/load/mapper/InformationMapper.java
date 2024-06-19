@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.Information;
-import io.gentjankolicaj.app.edata.load.command.InformationCmd;
-import io.gentjankolicaj.app.edata.load.dto.InformationDTO;
+import io.edata.load.command.InformationCmd;
+import io.edata.load.dto.InformationDTO;
 import java.util.List;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

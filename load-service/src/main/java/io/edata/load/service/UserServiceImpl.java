@@ -1,13 +1,13 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
 import io.edata.commons.domain.User;
-import io.gentjankolicaj.app.edata.load.command.UserCmd;
-import io.gentjankolicaj.app.edata.load.dto.UserDTO;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullReferenceException;
-import io.gentjankolicaj.app.edata.load.exception.resource.UserNotFoundException;
-import io.gentjankolicaj.app.edata.load.mapper.UserCustomMapper;
-import io.gentjankolicaj.app.edata.load.repository.UserRepository;
+import io.edata.load.command.UserCmd;
+import io.edata.load.dto.UserDTO;
+import io.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullReferenceException;
+import io.edata.load.exception.resource.UserNotFoundException;
+import io.edata.load.mapper.UserCustomMapper;
+import io.edata.load.repository.UserRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

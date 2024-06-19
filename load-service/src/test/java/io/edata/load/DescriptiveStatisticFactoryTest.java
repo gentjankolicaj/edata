@@ -2,11 +2,11 @@ package io.edata.load;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import io.gentjankolicaj.app.edata.load.command.nasa.power.PowerPressureCmd;
-import io.gentjankolicaj.app.edata.load.statistic.core.FactoryCreator;
-import io.gentjankolicaj.app.edata.load.statistic.core.Item;
-import io.gentjankolicaj.app.edata.load.statistic.core.StatisticFactoryType;
-import io.gentjankolicaj.app.edata.load.statistic.descriptive.DescriptiveStatisticFactory;
+import io.edata.load.command.nasa.power.PowerPressureCmd;
+import io.edata.load.statistic.core.FactoryCreator;
+import io.edata.load.statistic.core.Item;
+import io.edata.load.statistic.core.StatisticFactoryType;
+import io.edata.load.statistic.descriptive.DescriptiveStatisticFactory;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

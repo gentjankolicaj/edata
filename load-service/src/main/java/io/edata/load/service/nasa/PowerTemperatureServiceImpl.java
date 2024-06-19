@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.service.nasa;
+package io.edata.load.service.nasa;
 
 import io.edata.commons.domain.User;
 import io.edata.commons.domain.nasa.power.PowerTemperature;
@@ -7,14 +7,14 @@ import io.edata.commons.enums.nasa.power.Identifier;
 import io.edata.commons.enums.nasa.power.OutputFormat;
 import io.edata.commons.enums.nasa.power.TempAverage;
 import io.edata.commons.enums.nasa.power.UserCommunity;
-import io.gentjankolicaj.app.edata.load.command.nasa.power.PowerTemperatureCmd;
-import io.gentjankolicaj.app.edata.load.dto.nasa.power.PowerTemperatureDTO;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullReferenceException;
-import io.gentjankolicaj.app.edata.load.exception.resource.PowerTemperatureNotFoundException;
-import io.gentjankolicaj.app.edata.load.mapper.nasa.PowerTemperatureMapper;
-import io.gentjankolicaj.app.edata.load.repository.nasa.power.PowerTemperatureRepository;
-import io.gentjankolicaj.app.edata.load.service.UserService;
+import io.edata.load.command.nasa.power.PowerTemperatureCmd;
+import io.edata.load.dto.nasa.power.PowerTemperatureDTO;
+import io.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullReferenceException;
+import io.edata.load.exception.resource.PowerTemperatureNotFoundException;
+import io.edata.load.mapper.nasa.PowerTemperatureMapper;
+import io.edata.load.repository.nasa.power.PowerTemperatureRepository;
+import io.edata.load.service.UserService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

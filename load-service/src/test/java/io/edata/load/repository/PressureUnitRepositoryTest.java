@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.repository;
+package io.edata.load.repository;
 
 import org.junit.jupiter.api.Test;
 

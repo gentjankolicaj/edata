@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
-import io.gentjankolicaj.app.edata.load.command.CountryCmd;
-import io.gentjankolicaj.app.edata.load.dto.CountryDTO;
+import io.edata.load.command.CountryCmd;
+import io.edata.load.dto.CountryDTO;
 import java.util.List;
 
 public interface CountryService {

@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.exception.resource;
+package io.edata.load.exception.resource;
 
 public class IdentifierNotFoundException extends RuntimeException {
 

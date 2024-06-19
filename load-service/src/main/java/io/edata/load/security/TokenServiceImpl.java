@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.security;
+package io.edata.load.security;
 
 import io.edata.commons.domain.User;
 import java.util.List;

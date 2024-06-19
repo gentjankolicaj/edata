@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.exception.api.uri;
+package io.edata.load.exception.api.uri;
 
 public class PressureUnitBadUriException extends RuntimeException {
 

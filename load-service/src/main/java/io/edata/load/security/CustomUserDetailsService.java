@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.security;
+package io.edata.load.security;
 
 import io.edata.commons.domain.User;
-import io.gentjankolicaj.app.edata.load.service.UserService;
+import io.edata.load.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

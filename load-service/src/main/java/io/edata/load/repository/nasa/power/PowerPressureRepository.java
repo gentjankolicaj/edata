@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.repository.nasa.power;
+package io.edata.load.repository.nasa.power;
 
 import io.edata.commons.domain.nasa.power.PowerPressure;
 import org.springframework.data.repository.CrudRepository;

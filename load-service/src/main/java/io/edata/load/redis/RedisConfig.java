@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.redis;
+package io.edata.load.redis;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

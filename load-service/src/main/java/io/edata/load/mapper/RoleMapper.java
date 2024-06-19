@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.Role;
-import io.gentjankolicaj.app.edata.load.command.RoleCmd;
-import io.gentjankolicaj.app.edata.load.dto.RoleDTO;
+import io.edata.load.command.RoleCmd;
+import io.edata.load.dto.RoleDTO;
 import java.util.List;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

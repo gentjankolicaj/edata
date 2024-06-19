@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.TemperatureUnit;
-import io.gentjankolicaj.app.edata.load.command.TemperatureUnitCmd;
-import io.gentjankolicaj.app.edata.load.dto.TemperatureUnitDTO;
+import io.edata.load.command.TemperatureUnitCmd;
+import io.edata.load.dto.TemperatureUnitDTO;
 import java.util.List;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

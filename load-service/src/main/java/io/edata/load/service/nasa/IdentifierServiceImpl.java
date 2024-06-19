@@ -1,13 +1,13 @@
-package io.gentjankolicaj.app.edata.load.service.nasa;
+package io.edata.load.service.nasa;
 
 import io.edata.commons.domain.nasa.power.Identifier;
-import io.gentjankolicaj.app.edata.load.command.nasa.power.IdentifierCmd;
-import io.gentjankolicaj.app.edata.load.dto.nasa.power.IdentifierDTO;
-import io.gentjankolicaj.app.edata.load.exception.resource.IdentifierNotFoundException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullReferenceException;
-import io.gentjankolicaj.app.edata.load.mapper.nasa.IdentifierMapper;
-import io.gentjankolicaj.app.edata.load.repository.nasa.power.IdentifierRepository;
+import io.edata.load.command.nasa.power.IdentifierCmd;
+import io.edata.load.dto.nasa.power.IdentifierDTO;
+import io.edata.load.exception.resource.IdentifierNotFoundException;
+import io.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullReferenceException;
+import io.edata.load.mapper.nasa.IdentifierMapper;
+import io.edata.load.repository.nasa.power.IdentifierRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.exception.api.request;
+package io.edata.load.exception.api.request;
 
 import lombok.experimental.StandardException;
 

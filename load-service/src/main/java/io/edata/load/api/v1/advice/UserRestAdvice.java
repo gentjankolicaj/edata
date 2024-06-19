@@ -1,9 +1,9 @@
-package io.gentjankolicaj.app.edata.load.api.v1.advice;
+package io.edata.load.api.v1.advice;
 
 
-import io.gentjankolicaj.app.edata.load.exception.api.request.UserBadRequestException;
-import io.gentjankolicaj.app.edata.load.exception.api.uri.UserBadUriException;
-import io.gentjankolicaj.app.edata.load.exception.resource.UserNotFoundException;
+import io.edata.load.exception.api.request.UserBadRequestException;
+import io.edata.load.exception.api.uri.UserBadUriException;
+import io.edata.load.exception.resource.UserNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.security;
+package io.edata.load.security;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

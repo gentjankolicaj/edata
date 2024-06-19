@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.statistic.core;
+package io.edata.load.statistic.core;
 
-import io.gentjankolicaj.app.edata.load.statistic.descriptive.DescriptiveStatisticFactory;
-import io.gentjankolicaj.app.edata.load.statistic.inferential.InferentialStatisticFactory;
+import io.edata.load.statistic.descriptive.DescriptiveStatisticFactory;
+import io.edata.load.statistic.inferential.InferentialStatisticFactory;
 
 public class FactoryCreator {
 

@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.security;
+package io.edata.load.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

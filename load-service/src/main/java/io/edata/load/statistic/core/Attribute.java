@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.statistic.core;
+package io.edata.load.statistic.core;
 
 import java.util.Comparator;
 import lombok.AllArgsConstructor;

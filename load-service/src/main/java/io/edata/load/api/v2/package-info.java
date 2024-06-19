@@ -1,1 +1,1 @@
-package io.gentjankolicaj.app.edata.load.api.v2;
+package io.edata.load.api.v2;

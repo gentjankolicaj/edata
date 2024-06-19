@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.dto.nasa.power;
+package io.edata.load.dto.nasa.power;
 
 
 import lombok.AllArgsConstructor;

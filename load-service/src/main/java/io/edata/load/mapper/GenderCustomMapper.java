@@ -1,9 +1,9 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.Gender;
-import io.gentjankolicaj.app.edata.load.command.GenderCmd;
-import io.gentjankolicaj.app.edata.load.dto.GenderDTO;
-import io.gentjankolicaj.app.edata.load.mapper.core.CustomMapper;
+import io.edata.load.command.GenderCmd;
+import io.edata.load.dto.GenderDTO;
+import io.edata.load.mapper.core.CustomMapper;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Component;

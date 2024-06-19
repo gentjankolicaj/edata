@@ -1,9 +1,9 @@
-package io.gentjankolicaj.app.edata.load.statistic.descriptive;
+package io.edata.load.statistic.descriptive;
 
-import io.gentjankolicaj.app.edata.load.statistic.core.AbstractStatisticFactory;
-import io.gentjankolicaj.app.edata.load.statistic.core.BasicOperations;
-import io.gentjankolicaj.app.edata.load.statistic.core.Item;
-import io.gentjankolicaj.app.edata.load.statistic.core.StatisticFactoryType;
+import io.edata.load.statistic.core.AbstractStatisticFactory;
+import io.edata.load.statistic.core.BasicOperations;
+import io.edata.load.statistic.core.Item;
+import io.edata.load.statistic.core.StatisticFactoryType;
 import java.util.List;
 
 public class DescriptiveStatisticFactory extends AbstractStatisticFactory {

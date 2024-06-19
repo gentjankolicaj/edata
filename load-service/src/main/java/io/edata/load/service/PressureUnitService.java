@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
-import io.gentjankolicaj.app.edata.load.command.PressureUnitCmd;
-import io.gentjankolicaj.app.edata.load.dto.PressureUnitDTO;
+import io.edata.load.command.PressureUnitCmd;
+import io.edata.load.dto.PressureUnitDTO;
 import java.util.List;
 
 public interface PressureUnitService {

@@ -1,7 +1,7 @@
-package io.gentjankolicaj.app.edata.load.service.nasa;
+package io.edata.load.service.nasa;
 
-import io.gentjankolicaj.app.edata.load.command.nasa.power.PowerTemperatureCmd;
-import io.gentjankolicaj.app.edata.load.dto.nasa.power.PowerTemperatureDTO;
+import io.edata.load.command.nasa.power.PowerTemperatureCmd;
+import io.edata.load.dto.nasa.power.PowerTemperatureDTO;
 import java.util.List;
 
 public interface PowerTemperatureService {

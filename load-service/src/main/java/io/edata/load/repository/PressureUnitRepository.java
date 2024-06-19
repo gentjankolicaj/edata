@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.repository;
+package io.edata.load.repository;
 
 import io.edata.commons.domain.PressureUnit;
 import java.util.List;

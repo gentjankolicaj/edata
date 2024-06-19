@@ -1,8 +1,8 @@
-package io.gentjankolicaj.app.edata.load.api.v1.controller;
+package io.edata.load.api.v1.controller;
 
 
-import io.gentjankolicaj.app.edata.load.dto.CountryDTO;
-import io.gentjankolicaj.app.edata.load.service.CountryService;
+import io.edata.load.dto.CountryDTO;
+import io.edata.load.service.CountryService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;

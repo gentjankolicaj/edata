@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.command;
+package io.edata.load.command;
 
 import io.edata.commons.enums.InformationScope;
 import lombok.AllArgsConstructor;

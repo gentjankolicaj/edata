@@ -1,4 +1,4 @@
-package io.gentjankolicaj.app.edata.load.mapper.core;
+package io.edata.load.mapper.core;
 
 import java.util.List;
 

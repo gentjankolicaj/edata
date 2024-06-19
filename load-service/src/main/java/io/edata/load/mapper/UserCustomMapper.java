@@ -1,9 +1,9 @@
-package io.gentjankolicaj.app.edata.load.mapper;
+package io.edata.load.mapper;
 
 import io.edata.commons.domain.User;
-import io.gentjankolicaj.app.edata.load.command.UserCmd;
-import io.gentjankolicaj.app.edata.load.dto.UserDTO;
-import io.gentjankolicaj.app.edata.load.mapper.core.CustomMapper;
+import io.edata.load.command.UserCmd;
+import io.edata.load.dto.UserDTO;
+import io.edata.load.mapper.core.CustomMapper;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

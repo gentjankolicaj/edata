@@ -1,13 +1,13 @@
-package io.gentjankolicaj.app.edata.load.service;
+package io.edata.load.service;
 
 import io.edata.commons.domain.PressureUnit;
-import io.gentjankolicaj.app.edata.load.command.PressureUnitCmd;
-import io.gentjankolicaj.app.edata.load.dto.PressureUnitDTO;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullIdException;
-import io.gentjankolicaj.app.edata.load.exception.resource.NullReferenceException;
-import io.gentjankolicaj.app.edata.load.exception.resource.PressureUnitNotFoundException;
-import io.gentjankolicaj.app.edata.load.mapper.PressureUnitMapper;
-import io.gentjankolicaj.app.edata.load.repository.PressureUnitRepository;
+import io.edata.load.command.PressureUnitCmd;
+import io.edata.load.dto.PressureUnitDTO;
+import io.edata.load.exception.resource.NullIdException;
+import io.edata.load.exception.resource.NullReferenceException;
+import io.edata.load.exception.resource.PressureUnitNotFoundException;
+import io.edata.load.mapper.PressureUnitMapper;
+import io.edata.load.repository.PressureUnitRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
